@@ -42,7 +42,7 @@
                     <a class="nav-link" href="#pricing">Pricing</a>
                     <a class="nav-link" href="#topics">Topics</a>
                     <a class="nav-link" href="#reviews">Reviews</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </div>
             </div>
         </div>
@@ -262,7 +262,7 @@
                     <i class="bi bi-stars"></i>
                     Book Reviews
                 </h2>
-                <p class="lead">What people are saying about the book.</p>
+                <p class="lead text-muted">What people are saying about the book.</p>
             </div>
             <div class="row justify-content-center mt-5">
                 <div class="col-lg-8">
@@ -326,6 +326,71 @@
                             <small>Billy F.</small>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Contact</h2>
+                <p class="lead text-muted">Got any Questions? Fill out the following form.</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form class="row g-3">
+                        <div class="col-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><strong>@</strong></span>
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="e.g. john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="inputName" class="form-label">Full Name</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-person-fill"></i>
+                                </span>
+                                <input type="text" class="form-control" id="inputName" placeholder="e.g. John Smith"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="ebookInquiry" class="form-label">Inquiry Type</label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-question-circle-fill"></i>
+                                </span>
+                                <select class="form-select" id="ebookInquiry" name="ebookInquiry" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="purchase">Purchase or Download Issue</option>
+                                    <option value="access">eBook Access Problem</option>
+                                    <option value="request">Request a New eBook Topic</option>
+                                    <option value="feedback">Feedback on an eBook</option>
+                                    <option value="typo">Report a Typo or Error</option>
+                                    <option value="collab">Author/Publisher Collaboration</option>
+                                    <option value="copyright">Copyright or Licensing Question</option>
+                                    <option value="other">Other eBook-Related Inquiry</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="inquiryDescription" class="form-label">Describe More</label>
+                            <textarea class="form-control" id="inquiryDescription" name="inquiryDescription" rows="4"
+                                placeholder="Provide more details about your inquiry..." style="resize: none;"
+                                required></textarea>
+                        </div>
+                        <div class="text-center ">
+                            <button type="submit" class="btn btn-success w-50 px-3 py-2 rounded-pill shadow-sm">
+                                <i class="bi bi-send me-2"></i> Submit
+                            </button>
+                        </div>
+
+                    </form>
                 </div>
             </div>
         </div>
