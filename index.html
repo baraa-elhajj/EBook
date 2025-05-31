@@ -344,7 +344,12 @@
                         <div class="col-12">
                             <label for="inputEmail4" class="form-label">Email</label>
                             <div class="input-group">
-                                <span class="input-group-text"><strong>@</strong></span>
+                                <span class="input-group-text">
+                                    <span class="my-tooltip" data-bs-placement="bottom"
+                                        title="Enter your email address to ensure you get our reply">
+                                        <strong>@</strong>
+                                    </span>
+                                </span>
                                 <input type="email" class="form-control" id="inputEmail4"
                                     placeholder="e.g. john@example.com" required>
                             </div>
@@ -353,7 +358,9 @@
                             <label for="inputName" class="form-label">Full Name</label>
                             <div class="input-group">
                                 <span class="input-group-text">
-                                    <i class="bi bi-person-fill"></i>
+                                    <span class="my-tooltip" data-bs-placement="bottom" title="Enter your full name">
+                                        <i class="bi bi-person-fill"></i>
+                                    </span>
                                 </span>
                                 <input type="text" class="form-control" id="inputName" placeholder="e.g. John Smith"
                                     required>
@@ -363,7 +370,10 @@
                             <label for="ebookInquiry" class="form-label">Inquiry Type</label>
                             <div class="input-group">
                                 <span class="input-group-text">
-                                    <i class="bi bi-question-circle-fill"></i>
+                                    <span class="my-tooltip" data-bs-placement="bottom"
+                                        title="Select the main reason of your inquiry">
+                                        <i class="bi bi-question-circle-fill"></i>
+                                    </span>
                                 </span>
                                 <select class="form-select" id="ebookInquiry" name="ebookInquiry" required>
                                     <option value="" disabled selected>Select an option</option>
@@ -399,6 +409,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+    <script>
+        const tooltips = document.querySelectorAll('.my-tooltip');
+        tooltips.forEach(t => {
+            new bootstrap.Tooltip(t);
+        });
+    </script>
 </body>
 
 </html>
