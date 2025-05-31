@@ -1,0 +1,31 @@
+* {
+    --theme-color: #4e9c76;
+}
+
+/* sets a specific padding for all the sections */
+section {
+    padding: 60px 0;
+}
+
+.nav-theme {
+    background-color: var(--theme-color);
+}
+
+.btn-theme {
+    color: white !important;
+    background-color: var(--theme-color) !important;
+    border-color: var(--theme-color) !important;
+}
+
+.btn-theme:hover {
+    background-color: #3f8b66 !important;
+    border-color: #3a7e5c !important;
+}
+
+.btn-theme:focus {
+    box-shadow: 0 0 0 0.25rem rgba(78, 156, 118, 0.5) !important;
+}
+
+.btn-theme:disabled {
+    opacity: 0.65 !important;
+}
