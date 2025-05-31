@@ -29,3 +29,18 @@ section {
 .btn-theme:disabled {
     opacity: 0.65 !important;
 }
+
+.btn-light-theme {
+    color: var(--theme-color) !important;
+    border-color: var(--theme-color) !important;
+    background-color: white !important;
+}
+
+.btn-light-theme:hover {
+    color: white !important;
+    background-color: var(--theme-color) !important;
+}
+
+.text-color-theme {
+    color: var(--theme-color) !important;
+}
