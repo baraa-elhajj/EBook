@@ -12,35 +12,36 @@ section {
 }
 
 .btn-theme {
-    color: white !important;
-    background-color: var(--theme-color) !important;
-    border-color: var(--theme-color) !important;
+    color: white;
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
 }
 
 .btn-theme:hover {
-    background-color: #3f8b66 !important;
-    border-color: #3a7e5c !important;
+    color: white;
+    background-color: #3f8b66;
+    border-color: #3a7e5c;
 }
 
 .btn-theme:focus {
-    box-shadow: 0 0 0 0.25rem rgba(78, 156, 118, 0.5) !important;
+    box-shadow: 0 0 0 0.25rem rgba(78, 156, 118, 0.5);
 }
 
 .btn-theme:disabled {
-    opacity: 0.65 !important;
+    opacity: 0.65;
 }
 
 .btn-light-theme {
-    color: var(--theme-color) !important;
-    border-color: var(--theme-color) !important;
-    background-color: white !important;
+    color: var(--theme-color);
+    border-color: var(--theme-color);
+    background-color: white;
 }
 
 .btn-light-theme:hover {
-    color: white !important;
-    background-color: var(--theme-color) !important;
+    color: white;
+    background-color: var(--theme-color);
 }
 
 .text-color-theme {
-    color: var(--theme-color) !important;
+    color: var(--theme-color);
 }
