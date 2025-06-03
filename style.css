@@ -2,6 +2,10 @@
     --theme-color: #4e9c76;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* sets a specific padding for all the sections */
 section {
     padding: 60px 0;
