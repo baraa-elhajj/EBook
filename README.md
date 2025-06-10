@@ -43,8 +43,10 @@ This single-page website includes the following key sections:
  ├── 📂 assets         # Project images
  │ └── book-cover.png
  │ └── ebook.png
- ├── 📄 styles.css     # Contains som custom side styles
- ├── 📄 script.js      # JavaScript logic for tooltips
+ ├── 📂 css     
+ │ └── 📄 styles.css   # Contains some custom styles
+ ├── 📂 js      
+ │ └── 📄 scripts.js    # JavaScript logic for tooltips
  ├── 📄 README.md      # Documentation
  ```
 
