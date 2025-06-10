@@ -46,7 +46,7 @@ This single-page website includes the following key sections:
  ├── 📂 css     
  │ └── 📄 styles.css   # Contains some custom styles
  ├── 📂 js      
- │ └── 📄 scripts.js    # JavaScript logic for tooltips
+ │ └── 📄 scripts.js   # JavaScript logic for tooltips
  ├── 📄 README.md      # Documentation
  ```
 
@@ -57,6 +57,8 @@ This single-page website includes the following key sections:
 1. Clone the repository:
    ```bash
    git clone https://github.com/baraa-elhajj/EBook.git
-    ```
+   ```
 2. Open `index.html` in your browser.
-3. No build tools or dependencies are required. Everything runs with just HTML, CSS, and Bootstrap 5 via CDN.
+3. No build tools or dependencies are required. Everything runs with just HTML, CSS, and Bootstrap 5 via CDN. 
+
+> **Note:** You can change the theme color of the page by updating `theme-color` variable in `css/styles.css`.
