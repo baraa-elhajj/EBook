@@ -1,5 +1,6 @@
 * {
-    --theme-color: #4e9c76;
+    --theme-color: #4f9c77;
+    --default-text-color: white;
 }
 
 body {
@@ -16,19 +17,19 @@ section {
 }
 
 .btn-theme {
-    color: white;
+    color: var(--default-text-color);
     background-color: var(--theme-color);
     border-color: var(--theme-color);
 }
 
 .btn-theme:hover {
-    color: white;
-    background-color: #3f8b66;
-    border-color: #3a7e5c;
+    color: var(--default-text-color);
+    background-color: color-mix(in srgb, var(--theme-color) 90%, black);
+    border-color: color-mix(in srgb, var(--theme-color) 80%, black);
 }
 
 .btn-theme:focus {
-    box-shadow: 0 0 0 0.25rem rgba(78, 156, 118, 0.5);
+    box-shadow: 0 0 0 0.25rem rgba(var(--theme-color), 0.5);
 }
 
 .btn-theme:disabled {
@@ -38,11 +39,11 @@ section {
 .btn-light-theme {
     color: var(--theme-color);
     border-color: var(--theme-color);
-    background-color: white;
+    background-color: var(--default-text-color);
 }
 
 .btn-light-theme:hover {
-    color: white;
+    color: var(--default-text-color);
     background-color: var(--theme-color);
 }
 
